@@ -1484,7 +1484,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -31.8, -40.5, 0 }  // Ender3S1 Configs
+#define NOZZLE_TO_PROBE_OFFSET { -46.8, 1.2, 0 }  // Ender3S1 Configs
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
