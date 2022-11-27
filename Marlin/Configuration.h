@@ -1912,7 +1912,7 @@
  * NOTE: Requires a lot of PROGMEM!
  */
 
-#define DEBUG_LEVELING_FEATURE
+// #define DEBUG_LEVELING_FEATURE
 
 #if ANY(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL, PROBE_MANUALLY)
   // Set a height for the start of manual adjustment
