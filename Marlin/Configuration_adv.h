@@ -2135,8 +2135,8 @@
   // Override the mesh area if the automatic (max) area is too large
   #define MESH_MIN_X 10
   #define MESH_MIN_Y 10
-  #define MESH_MAX_X 195
-  #define MESH_MAX_Y 175
+  #define MESH_MAX_X 198 // mhaas: Maximize mesh probing area
+  #define MESH_MAX_Y 220 // mhaas: Maximize mesh probing area
 #endif
 
 #if BOTH(AUTO_BED_LEVELING_UBL, EEPROM_SETTINGS)

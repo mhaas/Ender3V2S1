@@ -1695,15 +1695,17 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 220  // MRiscoC Max usable bed size
-#define Y_BED_SIZE 220  // MRiscoC Max usable bed size
+#define X_BED_SIZE 230 // mhaas: Maximize mesh probing area
+#define Y_BED_SIZE 230 // mhaas: Maximize mesh probing area
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS -10  // MRiscoC Stock physical limit
 #define Y_MIN_POS -8  // MRiscoC Stock physical limit
 #define Z_MIN_POS 0
-#define X_MAX_POS 230  // MRiscoC Stock physical limit
-#define Y_MAX_POS 220  // MRiscoC Stock physical limit
+// mhaas: Following are tested on MY printer and may not work
+// for yours.
+#define X_MAX_POS 245 // mhaas: Maximize mesh probing area
+#define Y_MAX_POS 230  // mhaas: Maximize mesh probing area
 #define Z_MAX_POS 270  // Ender Configs
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
